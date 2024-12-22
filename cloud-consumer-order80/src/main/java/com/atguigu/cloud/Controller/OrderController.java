@@ -16,7 +16,7 @@ public class OrderController {
     @Autowired
     private RestTemplate restTemplate;
     //写死了
-//    public static final String PaymentSrv_URL = "http://localhost:8001";
+    //public static final String PaymentSrv_URL = "http://localhost:8001";
     //不写死
     //服务注册中心上的微服务名称
     public static final String PaymentSrv_URL = "http://cloud-payment-service";//服务注册中心上的微服务名称
