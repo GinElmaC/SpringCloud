@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.naming.Name;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 @Tag(name = "支付服务模块",description = "支付CRUD")
@@ -47,12 +48,18 @@ public class PayController {
         return ResultData.success("成功修改");
     }
 
+    //TODO这里会出异常，为了学习OpenFeign的超时机制
     @GetMapping("/pay/get/{id}")
     @Operation(summary = "查一个",description = "根据id查询")
     public ResultData<Pay> getById(@PathVariable("id") Integer id){
         System.out.println("查找"+id);
         if(id<0){
             throw new RuntimeException("id不可以是负数");
+        }
+        try {
+            TimeUnit.SECONDS.sleep(62);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
         Pay pay = payService.getById(id);
         System.out.println("");
