@@ -108,6 +108,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!--我们的通用模块-->
         <dependency>
             <groupId>com.atguigu.cloud</groupId>
             <artifactId>cloud-api-commons</artifactId>

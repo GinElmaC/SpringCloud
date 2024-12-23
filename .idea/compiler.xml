@@ -11,13 +11,8 @@
         <module name="mybatis_generator2024" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-api-commons" />
-        <module name="cloud-consumer-feign-order80" />
-      </profile>
-      <profile name="Annotation profile for mscloudV5" enabled="true">
-        <sourceOutputDir name="../cloud-provider-payment8002/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../cloud-provider-payment8002/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-payment8001" />
+        <module name="cloud-consumer-feign-order80" />
       </profile>
     </annotationProcessing>
   </component>

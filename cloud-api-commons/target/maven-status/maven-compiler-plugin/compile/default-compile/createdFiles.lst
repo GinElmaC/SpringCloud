@@ -1,5 +1,5 @@
-com\atguigu\cloud\Main.class
 com\atguigu\cloud\exp\GlobalExceptionHandler.class
+com\atguigu\cloud\Api\PayFeignApi.class
 com\atguigu\cloud\entities\PayDTO.class
 com\atguigu\cloud\resp\ResultData.class
 com\atguigu\cloud\resp\ReturnCodenum.class

@@ -18,6 +18,9 @@ public interface PayFeignApi {
     @GetMapping("/pay/get/{id}")
     public ResultData getById(@PathVariable("id") Integer id);
 
-    @GetMapping("pay/get/info")
+    @GetMapping("/pay/get/info")
     public String getVersionInfo();
+
+    @GetMapping("/pay/circuit/{id}")
+    public String myCircuit(@PathVariable("id")Integer id);
 }
