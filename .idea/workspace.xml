@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11119473-9d3e-411e-b437-d224a9aec512" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/Controller/OrderCircuitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Controller/PayCircuitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/Api/PayFeignApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/Api/PayFeignApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/cloud/Api/PayFeignApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/cloud/Api/PayFeignApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/Config/FeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/Config/FeignConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/cloud/Config/FeignConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/cloud/Config/FeignConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/Config/Swagger3Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/Config/Swagger3Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/Controller/PayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/Controller/PayController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/Main8002.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/Main8002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/Service/Impl/PayServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/Service/Impl/PayServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/Service/PayService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/Service/PayService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/entities/Pay.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/entities/Pay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/mapper/PayMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/cloud/mapper/PayMapper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,6 +227,7 @@
       <workItem from="1734847993335" duration="1397000" />
       <workItem from="1734850888588" duration="16088000" />
       <workItem from="1734929930642" duration="9174000" />
+      <workItem from="1734955919096" duration="2188000" />
     </task>
     <task id="LOCAL-00001" summary="2024.12.21&#10;springcloud&#10;尚硅谷p32">
       <option name="closed" value="true" />
@@ -270,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734877981136</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2024.12.23&#10;springcloud">
+      <option name="closed" value="true" />
+      <created>1734955949212</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734955949212</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +282,7 @@
     <MESSAGE value="2024.12.21&#10;springcloud&#10;尚硅谷p32" />
     <MESSAGE value="2024.12.21&#10;springcloud&#10;尚硅谷p32 二次提交" />
     <MESSAGE value="2024.12.22&#10;springcloud" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.12.22&#10;springcloud" />
+    <MESSAGE value="2024.12.23&#10;springcloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.12.23&#10;springcloud" />
   </component>
 </project>
