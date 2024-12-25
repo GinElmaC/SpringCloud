@@ -5,30 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11119473-9d3e-411e-b437-d224a9aec512" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/Controller/OrderGatewayControllrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/Controller/OrderMicrometerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/atguigu/cloud/Main9527.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Controller/PayGatewayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Controller/PayMicrometerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/atguigu/cloud/myGateway/MyRoutePredicateFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/Api/PayFeignApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/Api/PayFeignApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/cloud/Api/PayFeignApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/cloud/Api/PayFeignApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/Controller/OrderCircuitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/Controller/OrderCircuitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/cloud/Controller/OrderCircuitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/cloud/Controller/OrderCircuitController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Controller/PayCircuitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Controller/PayCircuitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/Controller/PayCircuitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/Controller/PayCircuitController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud学习.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway9527/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway9527/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway9527/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway9527/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Controller/PayGatewayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Controller/PayGatewayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/Controller/PayGatewayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/Controller/PayGatewayController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,61 +74,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "HTTP Request.generated-requests | #2.executor": "Run",
-    "Maven.cloud-api-commons [clean].executor": "Run",
-    "Maven.cloud-api-commons [install].executor": "Run",
-    "Maven.cloud-api-commons [package].executor": "Run",
-    "Maven.cloud-provider-payment8001 [clean].executor": "Run",
-    "Maven.cloud-provider-payment8001 [install].executor": "Run",
-    "Maven.cloud-provider-payment8002 [install].executor": "Run",
-    "Maven.mybatis_generator2024 [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.2:generate].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.Main80.executor": "Run",
-    "Spring Boot.Main8001.executor": "Run",
-    "Spring Boot.Main8002 (1).executor": "Run",
-    "Spring Boot.Main8002.executor": "Run",
-    "Spring Boot.Main9527.executor": "Run",
-    "Spring Boot.MainOpenFeign80.executor": "Run",
-    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java/SpringCloud/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "service.view.auto.scroll.to.source": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-api-commons [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-api-commons [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-api-commons [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-provider-payment8001 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-provider-payment8001 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-provider-payment8002 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mybatis_generator2024 [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.2:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Main80.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Main8001.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Main8002 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Main8002.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Main9527.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MainOpenFeign80.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java/SpringCloud&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\SpringCloud" />
       <recent name="D:\java\SpringCloud\cloud-consumer-feign-order80\src\main\java\com\atguigu\cloud" />
       <recent name="D:\java\SpringCloud\cloud-provider-payment8002\src\main\java\com\atguigu\cloud" />
       <recent name="D:\java\SpringCloud\cloud-provider-payment8002\src\main\resources" />
       <recent name="D:\java\SpringCloud\cloud-api-commons\src\main\java\com\atguigu\cloud" />
-      <recent name="D:\java\SpringCloud\cloud-consumer-order80\src\main\java\com\atguigu\cloud" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,10 +207,10 @@
     <list>
       <item itemvalue="HTTP Request.generated-requests | #2" />
       <item itemvalue="Spring Boot.MainOpenFeign80" />
-      <item itemvalue="Spring Boot.Main9527" />
-      <item itemvalue="Spring Boot.Main80" />
       <item itemvalue="Spring Boot.Main8001" />
       <item itemvalue="Spring Boot.Main8002" />
+      <item itemvalue="Spring Boot.Main80" />
+      <item itemvalue="Spring Boot.Main9527" />
     </list>
     <recent_temporary>
       <list>
@@ -266,7 +250,11 @@
       <workItem from="1734850888588" duration="16088000" />
       <workItem from="1734929930642" duration="9174000" />
       <workItem from="1734955919096" duration="2505000" />
-      <workItem from="1735010572643" duration="21431000" />
+      <workItem from="1735010572643" duration="21850000" />
+      <workItem from="1735102192840" duration="484000" />
+      <workItem from="1735102904523" duration="64000" />
+      <workItem from="1735102988751" duration="7083000" />
+      <workItem from="1735112042602" duration="6935000" />
     </task>
     <task id="LOCAL-00001" summary="2024.12.21&#10;springcloud&#10;尚硅谷p32">
       <option name="closed" value="true" />
@@ -308,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734959300233</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2024.12.24&#10;springcloud&#10;今日学习：断路器的限流，分布式链路追踪技术，Gateway的基本实现以及动态URL&#10;将知识串一遍真的很重要，我将整个微服务的调用细节仔细想了一遍，竟然提前发现了Gateway网课还没讲的部分。明天也要努力，争取寒假开学找到实习">
+      <option name="closed" value="true" />
+      <created>1735048675316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735048675316</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +327,7 @@
     <MESSAGE value="2024.12.22&#10;springcloud" />
     <MESSAGE value="2024.12.23&#10;springcloud" />
     <MESSAGE value="2024.12.23&#10;springcloud&#10;今日学习：CircuitBreaker&#10;Resilience4J的服务熔断两种方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.12.23&#10;springcloud&#10;今日学习：CircuitBreaker&#10;Resilience4J的服务熔断两种方式" />
+    <MESSAGE value="2024.12.24&#10;springcloud&#10;今日学习：断路器的限流，分布式链路追踪技术，Gateway的基本实现以及动态URL&#10;将知识串一遍真的很重要，我将整个微服务的调用细节仔细想了一遍，竟然提前发现了Gateway网课还没讲的部分。明天也要努力，争取寒假开学找到实习" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.12.24&#10;springcloud&#10;今日学习：断路器的限流，分布式链路追踪技术，Gateway的基本实现以及动态URL&#10;将知识串一遍真的很重要，我将整个微服务的调用细节仔细想了一遍，竟然提前发现了Gateway网课还没讲的部分。明天也要努力，争取寒假开学找到实习" />
   </component>
 </project>

@@ -18,6 +18,10 @@ spring:
           uri: lb://cloud-payment-service
           predicates:
             - Path=/pay/gateway/get/**              # 断言，路径相匹配的进行路由
+            - My=gold
+#            - name: My
+#              args:
+#                userType: gold
 
 
         - id: pay_routh2 #pay_routh2                #路由的ID(类似mysql主键ID)，没有固定规则但要求唯一，建议配合服务名
@@ -25,3 +29,28 @@ spring:
           uri: lb://cloud-payment-service
           predicates:
             - Path=/pay/gateway/info/**              # 断言，路径相匹配的进行路由
+
+
+        - id: pay_routh3
+          uri: lb://cloud-payment-service
+          predicates:
+            - Path=/pay/gateway/filter/**
+#            - Path=/gateway/filter/**
+#            - Path=/XYZ/abc/{segment}
+          filters:
+#            #请求头组
+#            - AddRequestHeader=X-Request-Mytest1,test1
+#            - AddRequestHeader=X-Request-Mytest2,test2
+#            - RemoveRequestHeader=X-Request-Mytest1
+#            - SetRequestHeader=X-Request-Mytest1,test1
+#            #请求参数组
+#            - AddRequestParameter=customerId,111
+#            - RemoveRequestParameter=customer
+#            #相应参数组
+#            - SetResponseHeader=customerId,111
+#            - AddResponseHeader=customerId,111
+#            - RemoveResponseHeader=customerId
+            #请求路径相关组
+#            - PrefixPath=/pay
+#            - SetPath=/pay/gateway/{segment}
+            - RedirectTo=302,http://www.baidu.com/
