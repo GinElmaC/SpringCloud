@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11119473-9d3e-411e-b437-d224a9aec512" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/atguigu/cloud/myGateway/MyRoutePredicateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/atguigu/cloud/myGateway/MyGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/atguigu/cloud/myGateway/MyGlobalFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/Api/PayFeignApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/Api/PayFeignApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway9527/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway9527/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway9527/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway9527/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Controller/PayGatewayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Controller/PayGatewayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/Controller/PayGatewayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/Controller/PayGatewayController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,6 +250,8 @@
       <workItem from="1735102904523" duration="64000" />
       <workItem from="1735102988751" duration="7083000" />
       <workItem from="1735112042602" duration="6935000" />
+      <workItem from="1735128932987" duration="236000" />
+      <workItem from="1735131782325" duration="3717000" />
     </task>
     <task id="LOCAL-00001" summary="2024.12.21&#10;springcloud&#10;尚硅谷p32">
       <option name="closed" value="true" />
@@ -304,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735048675316</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2024.12.25&#10;springcloud&#10;今日学习：内置Predicate的几种形式以及自定义Predicate。&#10;自定义Predicate如果用shortcuts语法的话一定要实现对应的方法，不然会在启动时报错。Gateway内置的Filter，今天打算把挤压已久的学校的作业写完，真是又臭又多QAQ">
+      <option name="closed" value="true" />
+      <created>1735129147658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735129147658</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +333,8 @@
     <MESSAGE value="2024.12.23&#10;springcloud" />
     <MESSAGE value="2024.12.23&#10;springcloud&#10;今日学习：CircuitBreaker&#10;Resilience4J的服务熔断两种方式" />
     <MESSAGE value="2024.12.24&#10;springcloud&#10;今日学习：断路器的限流，分布式链路追踪技术，Gateway的基本实现以及动态URL&#10;将知识串一遍真的很重要，我将整个微服务的调用细节仔细想了一遍，竟然提前发现了Gateway网课还没讲的部分。明天也要努力，争取寒假开学找到实习" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.12.24&#10;springcloud&#10;今日学习：断路器的限流，分布式链路追踪技术，Gateway的基本实现以及动态URL&#10;将知识串一遍真的很重要，我将整个微服务的调用细节仔细想了一遍，竟然提前发现了Gateway网课还没讲的部分。明天也要努力，争取寒假开学找到实习" />
+    <MESSAGE value="2024.12.25&#10;springcloud&#10;今日学习：" />
+    <MESSAGE value="2024.12.25&#10;springcloud&#10;今日学习：内置Predicate的几种形式以及自定义Predicate。&#10;自定义Predicate如果用shortcuts语法的话一定要实现对应的方法，不然会在启动时报错。Gateway内置的Filter，今天打算把挤压已久的学校的作业写完，真是又臭又多QAQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.12.25&#10;springcloud&#10;今日学习：内置Predicate的几种形式以及自定义Predicate。&#10;自定义Predicate如果用shortcuts语法的话一定要实现对应的方法，不然会在启动时报错。Gateway内置的Filter，今天打算把挤压已久的学校的作业写完，真是又臭又多QAQ" />
   </component>
 </project>
