@@ -1,0 +1,16 @@
+#这里是全局配置
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+#        group: TEST_GROUP
+        namespace: Dev_Namespace
+  # nacos端配置文件DataId的命名规则是：
+  # ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+  # 本案例的DataID是:nacos-config-client-dev.yaml
