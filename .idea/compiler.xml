@@ -16,6 +16,7 @@
         <module name="cloud-provider-payment8001" />
         <module name="mybatis_generator2024" />
         <module name="cloud-consumer-order80" />
+        <module name="cloudalibaba-sentinel-service8401" />
         <module name="cloud-gateway9527" />
         <module name="cloud-consumer-feign-order80" />
       </profile>

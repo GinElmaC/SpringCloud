@@ -4,43 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11119473-9d3e-411e-b437-d224a9aec512" name="Changes" comment="2024.12.25&#10;springcloud&#10;今日学习：作业写不下去，再学了一点。学完了springcloud的原生，明天该学springcloud alibaba了。">
-      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/target/classes/com/atguigu/cloud/myGateway/MyRoutePredicateFactory$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/target/classes/com/atguigu/cloud/myGateway/MyRoutePredicateFactory$Config.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/target/classes/com/atguigu/cloud/myGateway/MyRoutePredicateFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/cloud/Controller/NacosConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/cloud/Main3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu/cloud/Config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu/cloud/Controller/OrderNacosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu/cloud/Main83.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/target/classes/com/atguigu/cloud/Config/RestTemplateConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/target/classes/com/atguigu/cloud/Controller/OrderNacosController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/target/classes/com/atguigu/cloud/Main83.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/cloud/Controller/PayAlibabaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/cloud/Main9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/target/classes/com/atguigu/cloud/Controller/PayAlibabaController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/target/classes/com/atguigu/cloud/Main9001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/cloud/Controller/PayAlibabaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/cloud/Main9002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/classes/com/atguigu/cloud/Controller/PayAlibabaController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/classes/com/atguigu/cloud/Main9002.class" afterDir="false" />
+    <list default="true" id="11119473-9d3e-411e-b437-d224a9aec512" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloud/Controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloud/Main8401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud学习.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud学习.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +96,7 @@
     "Spring Boot.Main8002 (1).executor": "Run",
     "Spring Boot.Main8002.executor": "Run",
     "Spring Boot.Main83.executor": "Run",
+    "Spring Boot.Main8401.executor": "Run",
     "Spring Boot.Main9001.executor": "Run",
     "Spring Boot.Main9002.executor": "Run",
     "Spring Boot.Main9527.executor": "Run",
@@ -173,7 +146,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main3377">
+  <component name="RunManager" selected="Spring Boot.Main8401">
     <configuration name="Main3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudalibaba-config-nacos-client3377" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main3377" />
@@ -227,6 +200,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-service8401" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudalibaba-provider-payment9001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main9001" />
@@ -240,15 +226,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloudalibaba-provider-payment9002" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main9002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main9527" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,22 +241,23 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.Main9527" />
       <item itemvalue="Spring Boot.Main8002" />
       <item itemvalue="Spring Boot.Main80" />
       <item itemvalue="Spring Boot.MainOpenFeign80" />
+      <item itemvalue="Spring Boot.Main8401" />
       <item itemvalue="Spring Boot.Main3377" />
       <item itemvalue="Spring Boot.Main8001" />
       <item itemvalue="Spring Boot.Main83" />
       <item itemvalue="Spring Boot.Main9001" />
-      <item itemvalue="Spring Boot.Main9002" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Main8401" />
         <item itemvalue="Spring Boot.Main3377" />
         <item itemvalue="Spring Boot.Main8001" />
         <item itemvalue="Spring Boot.Main83" />
         <item itemvalue="Spring Boot.Main9001" />
-        <item itemvalue="Spring Boot.Main9002" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +301,8 @@
       <workItem from="1735198042518" duration="2192000" />
       <workItem from="1735200504088" duration="3000" />
       <workItem from="1735212863805" duration="156000" />
-      <workItem from="1735216013966" duration="4254000" />
+      <workItem from="1735216013966" duration="4349000" />
+      <workItem from="1735276479015" duration="4931000" />
     </task>
     <task id="LOCAL-00001" summary="2024.12.21&#10;springcloud&#10;尚硅谷p32">
       <option name="closed" value="true" />
@@ -386,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735135720205</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2024.12.26&#10;springcloud Alibaba&#10;今日学习：Alibaba的入门简介，以及Nacos服务注册与配置中心">
+      <option name="closed" value="true" />
+      <created>1735220422688</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735220422688</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,6 +403,7 @@
     <MESSAGE value="2024.12.25&#10;springcloud&#10;今日学习：" />
     <MESSAGE value="2024.12.25&#10;springcloud&#10;今日学习：内置Predicate的几种形式以及自定义Predicate。&#10;自定义Predicate如果用shortcuts语法的话一定要实现对应的方法，不然会在启动时报错。Gateway内置的Filter，今天打算把挤压已久的学校的作业写完，真是又臭又多QAQ" />
     <MESSAGE value="2024.12.25&#10;springcloud&#10;今日学习：作业写不下去，再学了一点。学完了springcloud的原生，明天该学springcloud alibaba了。" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.12.25&#10;springcloud&#10;今日学习：作业写不下去，再学了一点。学完了springcloud的原生，明天该学springcloud alibaba了。" />
+    <MESSAGE value="2024.12.26&#10;springcloud Alibaba&#10;今日学习：Alibaba的入门简介，以及Nacos服务注册与配置中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.12.26&#10;springcloud Alibaba&#10;今日学习：Alibaba的入门简介，以及Nacos服务注册与配置中心" />
   </component>
 </project>
