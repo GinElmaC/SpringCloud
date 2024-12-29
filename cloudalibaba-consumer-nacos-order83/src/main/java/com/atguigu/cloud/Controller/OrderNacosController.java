@@ -1,5 +1,7 @@
 package com.atguigu.cloud.Controller;
 
+import com.atguigu.cloud.Api.PayFeignSentinelApi;
+import com.atguigu.cloud.resp.ResultData;
 import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -20,5 +22,14 @@ public class OrderNacosController {
     public String paymentInfo(@PathVariable("id")Integer id){
         String res = restTemplate.getForObject(serverURL+"/pay/nacos/"+id, String.class);
         return res+" "+"83端口调用成功";
+    }
+
+
+    //Feign+Sentinel整合
+    @Resource
+    private PayFeignSentinelApi payFeignSentinelApi;
+    @GetMapping(value = "/consumer/pay/nacos/get/{orderNo}")
+    public ResultData getPayByOrder(@PathVariable("orderNo") String orderNo){
+        return payFeignSentinelApi.getPayByOrderNo(orderNo);
     }
 }
