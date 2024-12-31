@@ -5,27 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11119473-9d3e-411e-b437-d224a9aec512" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/Api/PayFeignSentinelApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/Api/PayFeignSentinelApiFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloud/Controller/EmpowerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloud/Controller/RateLimitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloud/Handler/MyRequestOriginParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloud/Service/FlowLimitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway9528/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway9528/src/main/java/com/atguigu/cloud/Config/GatewayConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway9528/src/main/java/com/atguigu/cloud/Main9528.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway9528/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu/cloud/Controller/OrderNacosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu/cloud/Controller/OrderNacosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu/cloud/Main83.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu/cloud/Main83.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/target/classes/com/atguigu/cloud/Controller/OrderNacosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/target/classes/com/atguigu/cloud/Controller/OrderNacosController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/cloud/Controller/PayAlibabaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/cloud/Controller/PayAlibabaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/target/classes/com/atguigu/cloud/Controller/PayAlibabaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/target/classes/com/atguigu/cloud/Controller/PayAlibabaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloud/Controller/FlowLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloud/Controller/FlowLimitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/target/classes/com/atguigu/cloud/Main83.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/target/classes/com/atguigu/cloud/Main83.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +316,9 @@
       <workItem from="1735314403248" duration="51000" />
       <workItem from="1735371379198" duration="678000" />
       <workItem from="1735439734123" duration="2000" />
-      <workItem from="1735450045127" duration="20301000" />
+      <workItem from="1735450045127" duration="20535000" />
+      <workItem from="1735543766168" duration="652000" />
+      <workItem from="1735616243374" duration="3341000" />
     </task>
     <task id="LOCAL-00001" summary="2024.12.21&#10;springcloud&#10;尚硅谷p32">
       <option name="closed" value="true" />
@@ -409,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735281934458</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2024.12.29&#10;springcloud Alibaba&#10;28号就学了sentinel熔断中的链路模式，所以2829一起发了&#10;今日学习：sentinel流控效果的QPS与最大线程数两种模式。@SentinelResource注解。热点规则。授权规则。规则持久化（持久化到Nacos，没学持久化到数据库的）。OpenFeign与Sentinel整合实现服务的降级与熔断。">
+      <option name="closed" value="true" />
+      <created>1735482762862</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735482762862</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,6 +437,7 @@
     <MESSAGE value="2024.12.25&#10;springcloud&#10;今日学习：作业写不下去，再学了一点。学完了springcloud的原生，明天该学springcloud alibaba了。" />
     <MESSAGE value="2024.12.26&#10;springcloud Alibaba&#10;今日学习：Alibaba的入门简介，以及Nacos服务注册与配置中心" />
     <MESSAGE value="2024.12.27&#10;springcloud Alibaba&#10;今日学习：Sentinel流量治理组件与为服务的整合，流控模式的直接模式与关联模式的小案例测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.12.27&#10;springcloud Alibaba&#10;今日学习：Sentinel流量治理组件与为服务的整合，流控模式的直接模式与关联模式的小案例测试" />
+    <MESSAGE value="2024.12.29&#10;springcloud Alibaba&#10;28号就学了sentinel熔断中的链路模式，所以2829一起发了&#10;今日学习：sentinel流控效果的QPS与最大线程数两种模式。@SentinelResource注解。热点规则。授权规则。规则持久化（持久化到Nacos，没学持久化到数据库的）。OpenFeign与Sentinel整合实现服务的降级与熔断。" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.12.29&#10;springcloud Alibaba&#10;28号就学了sentinel熔断中的链路模式，所以2829一起发了&#10;今日学习：sentinel流控效果的QPS与最大线程数两种模式。@SentinelResource注解。热点规则。授权规则。规则持久化（持久化到Nacos，没学持久化到数据库的）。OpenFeign与Sentinel整合实现服务的降级与熔断。" />
   </component>
 </project>
