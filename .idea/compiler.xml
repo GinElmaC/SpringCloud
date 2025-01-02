@@ -11,6 +11,7 @@
         <module name="cloud-provider-payment8002" />
         <module name="cloud-api-commons" />
         <module name="cloud-provider-payment8001" />
+        <module name="seata-order-service2001" />
         <module name="cloud-gateway9527" />
         <module name="cloudalibaba-sentinel-gateway9528" />
         <module name="cloudalibaba-provider-payment9002" />

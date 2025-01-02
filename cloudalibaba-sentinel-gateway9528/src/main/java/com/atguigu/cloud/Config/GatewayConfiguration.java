@@ -3,6 +3,8 @@ package com.atguigu.cloud.Config;
 import com.alibaba.csp.sentinel.adapter.gateway.common.rule.GatewayFlowRule;
 import com.alibaba.csp.sentinel.adapter.gateway.common.rule.GatewayRuleManager;
 import com.alibaba.csp.sentinel.adapter.gateway.sc.SentinelGatewayFilter;
+import com.alibaba.csp.sentinel.adapter.gateway.sc.callback.BlockRequestHandler;
+import com.alibaba.csp.sentinel.adapter.gateway.sc.callback.GatewayCallbackManager;
 import com.alibaba.csp.sentinel.adapter.gateway.sc.exception.SentinelGatewayBlockExceptionHandler;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.ObjectProvider;
@@ -11,13 +13,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.codec.ServerCodecConfigurer;
+import org.springframework.web.reactive.function.BodyInserters;
+import org.springframework.web.reactive.function.server.ServerResponse;
 import org.springframework.web.reactive.result.view.ViewResolver;
+import org.springframework.web.server.ServerWebExchange;
+import reactor.core.publisher.Mono;
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * 根据官网写的配置类
@@ -57,5 +62,20 @@ public class GatewayConfiguration {
                 .setCount(2)
                 .setIntervalSec(1));
         GatewayRuleManager.loadRules(rules);
+
+        BlockRequestHandler handler = new BlockRequestHandler() {
+            @Override
+            public Mono<ServerResponse> handleRequest(ServerWebExchange serverWebExchange, Throwable throwable) {
+                Map<String,String> map = new HashMap<>();
+                map.put("errorCode", HttpStatus.TOO_MANY_REQUESTS.getReasonPhrase());
+                map.put("errorMessage","请求太频繁，触发限流（sentinel+gateway整合）");
+
+                return ServerResponse.status(HttpStatus.TOO_MANY_REQUESTS)
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .body(BodyInserters.fromValue(map));
+            }
+        };
+
+        GatewayCallbackManager.setBlockHandler(handler);
     }
 }
