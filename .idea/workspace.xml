@@ -5,12 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11119473-9d3e-411e-b437-d224a9aec512" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/Api/AccountFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/Api/StorageFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloud/Controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloud/Main2003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloud/Service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloud/Service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloud/Controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloud/Dao/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloud/Main2001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloud/Service/Impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloud/Service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloud/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloud/Controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloud/Main2002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloud/Service/Impl/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloud/Service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway9528/src/main/java/com/atguigu/cloud/Config/GatewayConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway9528/src/main/java/com/atguigu/cloud/Config/GatewayConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_generator2024/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_generator2024/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_generator2024/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_generator2024/src/main/resources/generatorConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +48,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="package.json" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -88,6 +116,9 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Main2001.executor": "Run",
+    "Spring Boot.Main2002.executor": "Run",
+    "Spring Boot.Main2003.executor": "Run",
     "Spring Boot.Main3377.executor": "Run",
     "Spring Boot.Main80.executor": "Run",
     "Spring Boot.Main8001.executor": "Run",
@@ -103,7 +134,7 @@
     "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java/SpringCloud",
+    "last_opened_file_path": "D:/java/SpringCloud/seata-order-service2001/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -128,11 +159,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\SpringCloud\seata-order-service2001\src\main\resources" />
+      <recent name="D:\java\SpringCloud\seata-order-service2001\src\main\java\com\atguigu\cloud" />
       <recent name="D:\java\SpringCloud" />
       <recent name="D:\java\SpringCloud\cloud-consumer-feign-order80\src\main\java\com\atguigu\cloud" />
       <recent name="D:\java\SpringCloud\cloud-provider-payment8002\src\main\java\com\atguigu\cloud" />
-      <recent name="D:\java\SpringCloud\cloud-provider-payment8002\src\main\resources" />
-      <recent name="D:\java\SpringCloud\cloud-api-commons\src\main\java\com\atguigu\cloud" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,10 +176,24 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main9528">
-    <configuration name="Main3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloudalibaba-config-nacos-client3377" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main3377" />
+  <component name="RunManager" selected="Spring Boot.Main2003">
+    <configuration name="Main2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seata-order-service2001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main2001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seata-storage-service2002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main2002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-account-service2003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main2003" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atguigu.cloud.*" />
@@ -254,25 +299,27 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.Main2001" />
+      <item itemvalue="Spring Boot.Main2002" />
       <item itemvalue="Spring Boot.Main8001" />
       <item itemvalue="Spring Boot.Main8002" />
       <item itemvalue="Spring Boot.Main80" />
       <item itemvalue="Spring Boot.Main9002" />
       <item itemvalue="Spring Boot.Main9527" />
       <item itemvalue="Spring Boot.MainOpenFeign80" />
+      <item itemvalue="Spring Boot.Main2003" />
       <item itemvalue="Spring Boot.Main9528" />
-      <item itemvalue="Spring Boot.Main3377" />
       <item itemvalue="Spring Boot.Main83" />
       <item itemvalue="Spring Boot.Main8401" />
       <item itemvalue="Spring Boot.Main9001" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Main2003" />
         <item itemvalue="Spring Boot.Main9528" />
         <item itemvalue="Spring Boot.Main9001" />
         <item itemvalue="Spring Boot.Main83" />
         <item itemvalue="Spring Boot.Main8401" />
-        <item itemvalue="Spring Boot.Main3377" />
       </list>
     </recent_temporary>
   </component>
@@ -329,6 +376,8 @@
       <workItem from="1735702583246" duration="1435000" />
       <workItem from="1735740866032" duration="13000" />
       <workItem from="1735803021943" duration="6770000" />
+      <workItem from="1735818706469" duration="66000" />
+      <workItem from="1735873389051" duration="15766000" />
     </task>
     <task id="LOCAL-00001" summary="2024.12.21&#10;springcloud&#10;尚硅谷p32">
       <option name="closed" value="true" />
@@ -426,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735660305307</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2025.1.2&#10;springcloud Alibaba&#10;今天发烧了，豪难受&#10;今日学习：seate">
+      <option name="closed" value="true" />
+      <created>1735818754838</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735818754838</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,6 +514,23 @@
     <MESSAGE value="2024.12.27&#10;springcloud Alibaba&#10;今日学习：Sentinel流量治理组件与为服务的整合，流控模式的直接模式与关联模式的小案例测试" />
     <MESSAGE value="2024.12.29&#10;springcloud Alibaba&#10;28号就学了sentinel熔断中的链路模式，所以2829一起发了&#10;今日学习：sentinel流控效果的QPS与最大线程数两种模式。@SentinelResource注解。热点规则。授权规则。规则持久化（持久化到Nacos，没学持久化到数据库的）。OpenFeign与Sentinel整合实现服务的降级与熔断。" />
     <MESSAGE value="2024.12.31&#10;springcloud Alibaba" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.12.31&#10;springcloud Alibaba" />
+    <MESSAGE value="2025.1.2&#10;springcloud Alibaba&#10;今天发烧了，豪难受&#10;今日学习：seate" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.1.2&#10;springcloud Alibaba&#10;今天发烧了，豪难受&#10;今日学习：seate" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloud/Controller/StorageController.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloud/Controller/AccountController.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

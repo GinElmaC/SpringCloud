@@ -30,5 +30,6 @@
         <table tableName="t_pay" domainObjectName="Pay">
             <generatedKey column="id" sqlStatement="JDBC"/>
         </table>
+
     </context>
 </generatorConfiguration>
